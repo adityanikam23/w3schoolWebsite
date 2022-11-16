@@ -1,0 +1,227 @@
+*{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80px;
+    /* background-color: bisque; */
+    /* position: sticky;
+    top: 0; */
+}
+
+.class1  .img123{
+   position: relative;
+   top: 20px;
+}
+.class1{
+    display:list-item;
+}
+.class1 a h2{
+    display: inline;
+    padding: 30px;
+    color: black;
+   
+}
+header a h2:hover{
+    background-color: green;
+}
+#mainform{
+    display: inline;
+    margin-left: 270px;
+    /* margin: 20px; */
+}
+#mainform input{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 5px;
+    font-weight: bolder;
+    
+}
+#mainform .i1{
+    background-color: black;
+    color: white;
+    
+}
+#mainform .i2{
+    background-color: pink;
+   
+   
+}
+#mainform .i3{
+    background-color: yellow;
+
+}
+#mainform .i4{
+    background-color: green;
+    color: white;
+    
+}
+nav{
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+nav img{
+    height: 30px;
+    padding-top: 25px;
+    margin-left: 10px;
+   
+}
+ul li{
+    display: inline;
+    padding: 15px;
+    padding-left: 25px;
+}
+ul li a{
+   text-decoration: none;
+    color: white;
+    
+}
+ul li a:hover{
+    background-color: cadetblue;
+    padding: 10px;
+    color: aquamarine;
+}
+a {
+    text-decoration: none;
+}
+#firstid h1{
+    padding-top: 20px;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#firstid input{
+    color: white;
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px; 
+}
+/* #firstid .i5{
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#firstid .i6{
+    float: right;
+    margin-left: 500px;
+    border-radius: 10px;
+    margin-right: 60px;
+} */
+aside{
+    /* position: fixed; */
+    background-color: rgb(181, 181, 233);
+    text-align: center;
+    overflow-y: scroll;
+   
+    
+   
+   
+}
+aside a{
+    text-decoration: none;
+}
+aside a h3{
+    color: black;
+    
+}
+aside h3:hover{
+    background-color: cadetblue;
+}
+
+#myid{
+    width: 100%;
+    display: flex;
+}
+.myaside{
+   
+    width: 15%;
+   
+}
+.mysection{
+    
+    width: 80%;
+}
+
+
+/* .section .div1{
+    text-align: center;
+} */
+.i5{
+    border-radius: 30px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.i6{
+    border-radius: 30px;
+    font-family: sans-serif;
+    margin-left: 500px;
+}
+.one{
+    width: 100%;
+    height: 250px;
+    background-color:azure;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.one p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.one a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+   
+}
+.one a:hover{
+    background-color: greenyellow;
+}
+#id2 .two{
+    font-size: 40px;
+}
+#id2 p{
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.three{
+    background-color: aquamarine;
+    height: 450px;
+    margin:20px ;
+    border-radius: 10px;
+}
+.three a{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.three a:hover{
+    background-color: greenyellow;
+}
+.four{
+   
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.four pre{
+    font-size: 19px;
+    color: white;
+     padding-right: 100px;
+     background-color: rgb(128, 119, 119);
+     /* background-color: gray; */
+     
+}
